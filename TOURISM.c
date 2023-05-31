@@ -559,6 +559,7 @@ int Show_Brochure()
 void Book_Ticket()
 {
     int c, a;
+    printf("\n\n");
     printf("\n\t ** Welcome to ASH Ticket Booking Service **");
     printf("\n To direct further please login if registered else register");
     printf("\n\tPress 1 to register else 2 to login: ");
@@ -597,6 +598,7 @@ int Show_Plan_Menu()
     printf("\n\tWe are directing to Select place with reference to your Interest");
     printf("\n\tPress any key to continue");
     getche();
+    printf("\n\n");
     printf("\n\t ** Welcome to ASH Selection of place Service **");
     printf("\n\t\t We let you Outreach Four various types of places");
     printf("\n\t\t 1.Hit 1 to select WaterFalls Places");
@@ -782,6 +784,7 @@ int Selection_Of_Place(int c, User_Info *data2)
     printf("\n\tWe are directing to Selection of Plan");
     printf("\n\tPress any key to continue");
     getche();
+    printf("\n\n");
     printf("\n\t ** Welcome to ASH Selection of Plan  Service **");
     printf("\n\tWhat Would you like to choose Bulk plan or Individual plan?");
     printf("\n\t Hit 1 to choose Bulk plan");
@@ -1052,6 +1055,7 @@ int Individual_Plan(User_Info *data2)
             printf("\n\tWe are Directing to Select Mode of Travel ");
             printf("\n\tPress any key to continue");
             getche();
+            printf("\n\n");
             printf("\n\t ** Welcome to ASH Ticket Individual Plan Booking Service **");
             printf("\n\tHow Would you like to travel ? ");
             printf("\n\t Hit 1 to go by train");
@@ -1142,6 +1146,7 @@ int Trains_Display(User_Info *data2)
     printf("\nWe are Directing to Hotels Display Selection Section");
     printf("\n\tPress any key to continue");
     getche();
+    printf("\n\n");
     printf("\n\t ** Welcome to ASH Hotel Booking Service **");
     Hotel_Final_Choice = Hotels_Display(data);
     printf("\n We are directing to Hotel Booking Section");
@@ -1214,6 +1219,7 @@ int Buses_Display(User_Info *data2)
     printf("\nWe are Directing to Hotels Display Selection Section");
     printf("\n\tPress any key to continue");
     getche();
+    printf("\n\n");
     printf("\n\t ** Welcome to ASH Hotel Booking Service **");
     int c = Hotels_Display(data);
     Hotel_Final_Choice += c;
@@ -1292,6 +1298,7 @@ void Cars_Display(User_Info *data2)
     printf("\nWe are Directing to Hotels Display Selection Section");
     printf("\n\tPress any key to continue");
     getche();
+    printf("\n\n");
     printf("\n\t ** Welcome to ASH Hotel Booking Service **");
     Hotel_Final_Choice = Hotels_Display(data);
     printf("\n We are directing to Hotel Booking Section");
@@ -1397,7 +1404,7 @@ int Hotels_Display(User_Info *data2)
                 {"StarResidency"},
                 {"FeelHomeResidency"},
                 {"HotelRanging"}};
-            printf("\t\t\t\tAVAILABLE HOTELS ARE:");
+            printf("\n\t\t\t\tAVAILABLE HOTELS ARE:");
             printf("\n\n\t1. Sterling Mussoorie \t\t\tPrice per room per night : 5,000/-");
             printf("\n\t2. Hotel Gem \t\t\t\tPrice per room per night : 4,500/-");
             printf("\n\t3. Star Residency \t\t\tPrice per room per night : 4,000/-");
