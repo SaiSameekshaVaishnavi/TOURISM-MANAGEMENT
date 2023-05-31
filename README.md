@@ -10,8 +10,8 @@ External brochure linkage
 Selection of Destination
 Customer care Support
 Selection of Plan (Bulk and Individual)
-if Bulk plan ticket booking followed by ticket display
+Bulk plan follows ticket booking and then ticket display
 if Individual plan it has 3 steps
-Transportation Selection having either Car Train or Bus as options
-Hotel Booking and Ticket Display
+In Transportation the choices are either Car Train or Bus 
+Followed by Hotel Booking and Ticket Display
 Ticket viewing and Cancellation services using various file handling operations 
